@@ -1,32 +1,32 @@
-🧠 Comparative Study of Graph Neural Networks for Intrusion Detection on the UNSW-NB15 Dataset
+# Comparative Study of Graph Neural Networks for Intrusion Detection on the UNSW-NB15 Dataset
 
 This project presents a comparative analysis of MLP, GCN, GAT, and an advanced GAT model on the UNSW-NB15 cybersecurity dataset. It applies graph-based learning techniques for detecting anomalous network activity using node-level classification and feature engineering.
 
-🌟 Objective
+## 🌟 Objective
 
 To evaluate and compare the performance of Graph Neural Network models on the UNSW-NB15 dataset, specifically for intrusion detection using metrics like accuracy, precision, recall, and F1-score.
 
-📊 Models Compared
+## 📊 Models Compared
 
-✅ MLP (Multilayer Perceptron)
+### ✅ MLP (Multilayer Perceptron)
 
 Acts as a baseline non-graph neural model.
 
 Performance used to benchmark GNN effectiveness.
 
-✅ GCN (Graph Convolutional Network)
+### ✅ GCN (Graph Convolutional Network)
 
 Learns via neighborhood aggregation from a constructed KNN graph.
 
 Demonstrates improved structural learning over MLP.
 
-✅ GAT (Graph Attention Network)
+### ✅ GAT (Graph Attention Network)
 
 Incorporates attention mechanisms to assign learnable weights to neighbor nodes.
 
 Offers interpretability and finer control.
 
-✅ Advanced GAT
+### ✅ Advanced GAT
 
 Includes enhancements like:
 
@@ -38,7 +38,7 @@ Deeper architecture
 
 Outperforms standard GAT in precision and recall.
 
-🧪 Dataset
+## 🧪 Dataset
 
 UNSW-NB15: A modern benchmark dataset for intrusion detection.
 
@@ -52,9 +52,9 @@ Standardization using StandardScaler
 
 SMOTE for oversampling the minority class
 
-🔧 Setup & Installation
+## 🔧 Setup & Installation
 
-📦 Requirements
+### 📦 Requirements
 
 Python 3.8+
 
@@ -70,9 +70,9 @@ Install all dependencies:
 
 pip install -r requirements.txt
 
-🚀 How to Run
+## 🚀 How to Run
 
-# Launch the notebook
+### Launch the notebook
 jupyter notebook "Comparative Study of GNN for UNSW-NB15.ipynb"
 
 Follow the sequential cells to:
@@ -85,7 +85,7 @@ Train and evaluate MLP, GCN, GAT, and Advanced GAT
 
 Visualise results
 
-📈 Results Summary
+## 📈 Results Summary
 
 Model
 
@@ -105,11 +105,11 @@ GAT
 
 Advanced GAT
 
-✅ Best performance (improved precision/recall)
+### ✅ Best performance (improved precision/recall)
 
 Conclusion: Advanced GAT outperforms standard GAT and MLP, and rivals or surpasses GCN in overall classification metrics.
 
-🔬 Ablation Studies
+## 🔬 Ablation Studies
 
 The impact of each architectural enhancement on GAT was tested:
 
@@ -119,13 +119,13 @@ GAT w/o Normalization Layers
 
 These were evaluated independently to quantify their influence on model robustness.
 
-📁 Project Structure
+## 📁 Project Structure
 
 .
 ├── Comparative Study of GNN for UNSW-NB15.ipynb  # Main notebook
 ├── README.md                                     # Project documentation
 
-📊 Visualizations
+## 📊 Visualizations
 
 Correlation heatmaps before and after preprocessing
 
@@ -137,7 +137,7 @@ Confusion matrices
 
 Attention visualizations for GAT models
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions and improvements are welcome via pull requests.
 
